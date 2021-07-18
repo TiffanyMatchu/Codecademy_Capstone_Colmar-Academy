@@ -68,6 +68,8 @@ header {
 }
 
 .start-here-section {
+    display: flex;
+    flex-direction: column;
     color: #404040;
     margin-right: 60px;
     width: 40%;
@@ -85,7 +87,7 @@ header {
 }
 
 .start-here-bttn {
-    padding: 8px;
+   padding: 8px;
     color: white;
     background-color: #404040;
     width: 100%;
