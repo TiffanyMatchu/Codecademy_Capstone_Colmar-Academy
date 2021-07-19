@@ -48,14 +48,14 @@ header {
 
 /* Start here section  */
 
-.start-here-container {
+.section-1-container {
     display: flex;
     justify-content: space-between;
     background-color: #cccccc;
     align-items: center;
 }
 
-.start-here-img-container {
+.section-1-img-container {
     width: 60%;
     padding: 32px 24px;
 }
@@ -67,7 +67,7 @@ header {
     width: 100%;
 }
 
-.start-here-section {
+.section-1-section {
     display: flex;
     flex-direction: column;
     color: #404040;
@@ -75,21 +75,20 @@ header {
     width: 40%;
 }
 
-.start-here-header {
+.section-1-header {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 16px;
 }
 
-.start-here-subheader {
+.section-1-subheader {
     font-weight: 600;
     margin-bottom: 16px;
 }
 
-.start-here-bttn {
+.section-1-bttn {
    padding: 8px;
     color: white;
     background-color: #404040;
-    width: 100%;
     border: 0;
 }
