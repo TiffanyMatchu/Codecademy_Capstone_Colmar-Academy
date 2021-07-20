@@ -46,7 +46,7 @@ header {
     padding-left: 16px;
 }
 
-/* Start here section  */
+/* Section 1 */
 
 .section-1-container {
     display: flex;
@@ -92,3 +92,6 @@ header {
     background-color: #404040;
     border: 0;
 }
+
+/* Section 2 */
+
