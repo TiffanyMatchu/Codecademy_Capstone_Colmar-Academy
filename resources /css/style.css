@@ -87,7 +87,7 @@ header {
 }
 
 .section-1-bttn {
-   padding: 8px;
+    padding: 8px;
     color: white;
     background-color: #404040;
     border: 0;
@@ -95,3 +95,56 @@ header {
 
 /* Section 2 */
 
+.section-2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #404040;
+}
+
+.section-2-img-container {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.section-2-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.section-2-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.section-2-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-2-card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+}
+
+.section-2-card-info {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.section-2-card-head {
+    font-weight: 600;
+}
+
+.section-2-card-text {
+    white-space: nowrap;
+    font-size: ;
+}
