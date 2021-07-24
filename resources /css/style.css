@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 body {
@@ -26,7 +27,7 @@ header {
 .nav-logo-header {
     font-size: 24px;
     font-weight: 500;
-    color: #404040;
+    /* color: #333; */
 }
 
 .nav-logo-header span {
@@ -41,7 +42,7 @@ header {
 }
 
 .nav-item, a {
-    color: #404040;
+    /* color: #333; */
     text-decoration: none;
     padding-left: 16px;
 }
@@ -70,7 +71,7 @@ header {
 .section-1-section {
     display: flex;
     flex-direction: column;
-    color: #404040;
+    /* color: #333; */
     margin-right: 60px;
     width: 40%;
 }
@@ -97,14 +98,14 @@ header {
 
 .section-2-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    color: #404040;
+    padding: 24px;
 }
 
 .section-2-img-container {
     width: 60%;
-    padding: 32px 24px;
+    padding-right: 48px;
+    border-right: 1px solid #cccccc;
 }
 
 .section-2-img {
@@ -121,9 +122,10 @@ header {
 }
 
 .section-2-card {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    width: auto;
+    padding: 0px 0px 16px
 }
 
 .section-2-card-img {
@@ -142,9 +144,16 @@ header {
 
 .section-2-card-head {
     font-weight: 600;
+    white-space: nowrap;
+    padding: 4px;
 }
 
 .section-2-card-text {
-    white-space: nowrap;
-    font-size: ;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.section-2-card a {
+    color: #3366cc;
+    font-size: 14px;
 }
