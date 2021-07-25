@@ -197,16 +197,16 @@ header {
 }
 
 .section-3-card img {
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .section-3-card {
     background-color: black;
     margin-right: 32px;
-    width: auto;
+    width: 33%;
     height: auto;
-    /* flex: 1 0 31%;
-    flex-grow: 0; */
 }
 
 .section-3-card h4 {
@@ -219,4 +219,5 @@ header {
 
 .section-3-card p {
     padding: 4px 0px 0px 16px;
+    font-size: 14px;
 }
