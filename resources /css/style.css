@@ -119,7 +119,7 @@ header {
     margin-bottom: 24px;
 }
 
-.section-2-info p{
+.section-2-info p {
     font-size: 12px;
     margin-bottom: 32px;
     font-weight: 300;
@@ -174,5 +174,12 @@ header {
 }
 
 .section-2-card:nth-child(3) {
+    background-color: #cccccc;
+}
+
+/* Section 3 */
+
+.section-3-container {
+    display: flex;
     background-color: #cccccc;
 }
