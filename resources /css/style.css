@@ -186,6 +186,9 @@ header {
     height: 100%;
     width: 100%;
 }
+.section-3-container h2{
+    align-self: center;
+}
 
 .section-3-card-container {
     display: flex;
@@ -203,7 +206,7 @@ header {
 }
 
 .section-3-card {
-    background-color: black;
+    background-color: whitesmoke;
     margin-right: 32px;
     margin-bottom: 32px;
     width: 33%;
