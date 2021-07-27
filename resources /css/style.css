@@ -158,7 +158,6 @@ header {
 
 .card-info h3 {
     font-weight: 600;
-    white-space: nowrap;
     padding: 4px;
 }
 
@@ -254,16 +253,18 @@ header {
 .section-4-row2{
     display: flex;
 
+
 }
 .video-container {
     max-width: 60%;
     height: auto;
     margin-bottom: 32px;
-    background-color: aqua;
+    padding-right: 24px;
 }
 
 .video-container video {
-    max-width: 60%;
+    max-width: 100%;
+    margin-bottom: 24px;
 }
 
 #section-4 {
