@@ -247,18 +247,19 @@ header {
     height: 100%;
     width: 100%;
 }
-.section-4-container h2{
+
+.section-4-container h2 {
     align-self: center;
 }
-.section-4-row2{
+
+.section-4-row2 {
     display: flex;
-
-
+    margin: 32px 0px;
 }
+
 .video-container {
     max-width: 60%;
     height: auto;
-    margin-bottom: 32px;
     padding-right: 24px;
 }
 
@@ -270,4 +271,5 @@ header {
 #section-4 {
     border: none;
     background-color: #cccccc;
+    padding-top: 0px;
 }
