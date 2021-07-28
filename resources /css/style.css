@@ -46,6 +46,27 @@ header {
     color: #333;
 }
 
+@media (max-width: 450px) {
+    .nav-logo-header {
+        display: none;
+    }
+    .nav-item span {
+        display: none;
+    }
+    .nav-item:nth-child(1) {
+        background-image: url(../images/ic-on-campus.svg);
+        background-repeat: no-repeat;
+    }
+    .nav-item:nth-child(2) {
+        background-image: url(../images/ic-online.svg);
+        background-repeat: no-repeat;
+    }
+    .nav-item:nth-child(3) {
+        background-image: url(../images/ic-login.svg);
+        background-repeat: no-repeat;
+    }
+}
+
 /* Section 1 */
 
 .section-1-container {
