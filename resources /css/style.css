@@ -183,7 +183,7 @@ header {
 .horizontal-card {
     display: flex;
     align-items: center;
-    padding: 16px;
+    margin: 16px;
 }
 
 .card-img {
@@ -229,7 +229,19 @@ header {
     .section-2-img-container {
         display: none;
     }
-    .horizontal-card-container{
+    .horizontal-card-container {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .horizontal-card:nth-child(-n+3) {
+        background-color: white;
+        flex-direction: column;
+        border-bottom: none;
+    }
+    .card-img:nth-child(-n+3) {
+        background-size: auto 100%;
+    }
+    .card-info:nth-child(-n+3) {
         width: 100%;
     }
 }
